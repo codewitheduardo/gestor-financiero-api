@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sistema.DTOs\Sistema.DTOs.csproj" />
+    <ProjectReference Include="..\Sistema.LogicaNegocio\Sistema.LogicaNegocio.csproj" />
+    <ProjectReference Include="..\Sistema.Utilidades\Sistema.Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>

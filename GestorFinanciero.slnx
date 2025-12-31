@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Sistema.DTOs/Sistema.DTOs.csproj" />
+  <Project Path="Sistema.LogicaAccesoDatos/Sistema.LogicaAccesoDatos.csproj" />
+  <Project Path="Sistema.LogicaAplicacion/Sistema.LogicaAplicacion.csproj" />
+  <Project Path="Sistema.LogicaNegocio/Sistema.LogicaNegocio.csproj" />
+  <Project Path="Sistema.Utilidades/Sistema.Utilidades.csproj" Id="57f59209-05d3-4e5f-a3f2-4e1c037c3f5b" />
+  <Project Path="Sistema.WebAPI/Sistema.WebAPI.csproj" Id="19b25a29-fcf7-48e1-9612-4a93dfd0b61d" />
+</Solution>
