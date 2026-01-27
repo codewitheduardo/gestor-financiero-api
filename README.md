@@ -14,6 +14,7 @@ Este proyecto forma parte de un desarrollo personal orientado al aprendizaje y a
 - Arquitectura por capas
 - Controladores HTTP
 - BCrypt (hash de contraseñas)
+- JWT (JSON Web Tokens)
 - Consumo de APIs externas
 
 ---
@@ -23,7 +24,8 @@ Este proyecto forma parte de un desarrollo personal orientado al aprendizaje y a
 - Exposición de endpoints REST  
 - Operaciones CRUD sobre entidades financieras  
 - Separación de responsabilidades (controladores, lógica de negocio y datos)  
-- Gestión de usuarios con **contraseñas hasheadas mediante BCrypt**  
+- Gestión de usuarios con **contraseñas hasheadas mediante BCrypt**
+- Autenticación y autorización mediante JWT
 - Consumo de una **API externa para obtener el tipo de cambio de moneda**  
 - Integración con aplicaciones frontend o clientes HTTP  
 
@@ -87,6 +89,7 @@ GET http://localhost:5000/api/TipoGasto/GetAll
 
 - Las contraseñas de los usuarios **no se almacenan en texto plano**.
 - Se utiliza **BCrypt** para el hash seguro de contraseñas antes de persistirlas.
+- La API implementa autenticación y autorización con JWT para proteger los endpoints.
 
 ---
 
@@ -111,6 +114,6 @@ GitHub: https://github.com/codewitheduardo
 
 ## ✨ Mejoras futuras
 
-- Autenticación y autorización (JWT)
+- Roles y permisos más granulares
 - Tests unitarios
 - Persistencia avanzada con base de datos
