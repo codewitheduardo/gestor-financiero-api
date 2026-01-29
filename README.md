@@ -99,9 +99,11 @@ La API consume un **servicio externo de cambio de moneda** para obtener valores 
 
 ---
 
-## 📌 Estado del proyecto
+## 🚧 Estado del proyecto
 
-🟡 En desarrollo / mejoras continuas
+🟢 Activo
+
+Proyecto funcional en desarrollo activo, con énfasis en buenas prácticas y organización por capas.
 
 ---
 
@@ -111,9 +113,3 @@ La API consume un **servicio externo de cambio de moneda** para obtener valores 
 GitHub: https://github.com/codewitheduardo
 
 ---
-
-## ✨ Mejoras futuras
-
-- Roles y permisos más granulares
-- Tests unitarios
-- Persistencia avanzada con base de datos
